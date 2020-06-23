@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Atividade.BuscaActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textview_Disciplina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Disciplina" />
+        <Spinner
+            android:id="@+id/spinnerDisciplinas"
+            android:entries="@array/Disciplinas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textviewMateria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Materia" />
+        <Spinner
+            android:id="@+id/spinnerMateria"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textviewTipoDoObjeto"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="Tipo do Objeto" />
+        <Spinner
+            android:id="@+id/spinnerTipoDoObjeto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/buttonPesquisar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Pesquisar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

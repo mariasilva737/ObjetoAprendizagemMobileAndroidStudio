@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "577782357508",
+    "firebase_url": "https://objetoaprendizagem-61b39.firebaseio.com",
+    "project_id": "objetoaprendizagem-61b39",
+    "storage_bucket": "objetoaprendizagem-61b39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577782357508:android:7dfb32c83a8143e2fc1f51",
+        "android_client_info": {
+          "package_name": "com.example.objetoaprendizagem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577782357508-7kj7vtskqu71ir1se3b91cbhol5blog1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmic8YX1uyU7FCROqLTP46PUaXAP4Zza8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577782357508-7kj7vtskqu71ir1se3b91cbhol5blog1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
